@@ -1,36 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: 骑行小站
+description: 骑行路线的攻略和感受
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: 骑行路线的攻略和感受
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: 浏览路线
+      link: /about
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 
 ## Next steps
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+<CardGrid>
+	<LinkCard 
+	title="国道318" 
+	href='/我的骑行/01-g318成都至拉萨/d00我从成都骑到了拉萨'
+	description='中国最美丽的景观大道'>
+	</LinkCard>
+	<LinkCard 
+	title="骑行岷江" 
+	href='/我的骑行/07-骑行岷江/骑行岷江/'
+	description='一条滋润了成都的大河'>
+	</LinkCard>	
+	<LinkCard 
+	title="沿河骑行" 
+	href='/我的骑行/03-成都沿河骑行/'
+	description='成都是一个河流城市'>
+	</LinkCard>	
+	<LinkCard 
+	title="环海南岛" 
+	href='/我的骑行/05-环海南岛骑行/环岛归来说环岛/'
+	description='多年以前的快乐旅程'>
+	</LinkCard>
 </CardGrid>
