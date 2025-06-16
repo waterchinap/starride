@@ -2,7 +2,7 @@
 title: 关于本站
 ---
 
-本站由astro下面的子项目starlight搭建而成。
+本站由astro下面的子项目[starlight](https://starlight.astro.build/getting-started/)搭建而成。
 
 关键点：
 
