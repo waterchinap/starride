@@ -1,0 +1,41 @@
+---
+title: 骑行小站
+description: 骑行路线的攻略和感受
+template: splash
+hero:
+  tagline: 骑行路线的攻略和感受
+  image:
+    file: ../../assets/rideto.png
+  actions:
+    - text: 浏览路线
+      link: /about
+      icon: right-arrow
+
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## 骑行路线
+
+<CardGrid>
+	<LinkCard 
+	title="国道318" 
+	href='/我的骑行/01-g318成都至拉萨/d00我从成都骑到了拉萨'
+	description='中国最美丽的景观大道'>
+	</LinkCard>
+	<LinkCard 
+	title="骑行岷江" 
+	href='/我的骑行/07-骑行岷江/骑行岷江/'
+	description='一条滋润了成都的大河'>
+	</LinkCard>	
+	<LinkCard 
+	title="沿河骑行" 
+	href='/我的骑行/03-成都沿河骑行/'
+	description='成都是一个河流城市'>
+	</LinkCard>	
+	<LinkCard 
+	title="环海南岛" 
+	href='/我的骑行/05-环海南岛骑行/环岛归来说环岛/'
+	description='多年以前的快乐旅程'>
+	</LinkCard>
+</CardGrid>
