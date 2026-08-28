@@ -3,7 +3,7 @@ title: index
 ---
 
 # 成都河流骑行
-![screenshot-1703226396716](https://ridemypic.oss-cn-chengdu.aliyuncs.com/img/screenshot-1703226396716.png)
+![screenshot-1703226396716](https://ridemypic.oss-cn-chengdu.aliyuncs.com/img/screenshot-1703226396716.png?x-oss-process=image/resize,l_1920/format,webp)
 
 河流骑行进度：
 
@@ -53,7 +53,7 @@ title: index
 
 第一步：了解成都的河流情况。搜索了关于成都河流的相关正式资料，出现了一个社会组织叫“成都河流研究会”，出版了几本相关的专著。其中成都河流故事在省图有馆藏，只能阅读不能出借。这本书对成都的河流进行了全面的介绍，感觉已经够用了。
 
-![Pasted image 20231101214845](https://ridemypic.oss-cn-chengdu.aliyuncs.com/img/Pasted%20image%2020231101214845.png)
+![Pasted image 20231101214845](https://ridemypic.oss-cn-chengdu.aliyuncs.com/img/Pasted%20image%2020231101214845.png?x-oss-process=image/resize,l_1920/format,webp)
 
 第二步：试着绘制一下河流的关系图。
 
